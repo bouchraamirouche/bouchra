@@ -25,7 +25,7 @@ training_set = Dataset(
 test_set = Dataset(
     name='test',
     path=os.path.join(_root_dataset_path, 'audio_test'),
-    metadata_path='C:\\Users\\amiro\\Desktop\\dcase2018_task2-master\\metadata\\test.csv',
+    metadata_path='/content/gdrive/project_folder/bouchra/metadata/test.csv',
 )
 """Dataset instance for the test dataset."""
 
