@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+"flake8" = "*"
+"flake8-docstrings" = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+
+[packages]
+"h5py" = "*"
+keras = "*"
+librosa = "*"
+numpy = "*"
+pandas = "*"
+pydub = "*"
+scipy = "*"
+sklearn = "*"
+tensorflow-gpu = "*"
+tqdm = "*"
+
+[requires]
+python_version = "3"
