@@ -12,7 +12,7 @@ Dataset = collections.namedtuple('Dataset',
 """Data structure encapsulating information about a dataset."""
 
 
-_root_dataset_path = ('C:\\Users\\amiro\\Desktop\\dcase2018_task2-master')
+_root_dataset_path = ('/content/gdrive/project_folder/bouchra')
 """str: Path to root directory containing input audio clips."""
 
 training_set = Dataset(
