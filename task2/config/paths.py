@@ -9,7 +9,7 @@ work_path = 'C:\\Users\\amiro\\Desktop\\testing and traing set\\workspace'
 preprocessing_path = os.path.join(work_path, 'split')
 """str: Path to the directory containing preprocessed audio files.""""""nee to change this to the path no_pseudo labeling ...etc"""
 
-extraction_path = os.path.join(work_path, 'features/logmel64')
+extraction_path = os.path.join(work_path, 'features\\logmel64')
 """str: Path to the directory containing extracted feature vectors."""
 
 model_path = os.path.join(work_path, 'models', training.training_id)
